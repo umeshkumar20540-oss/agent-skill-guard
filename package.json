@@ -1,0 +1,16 @@
+{
+  "name": "agent-skill-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency security & prompt-injection scanner for AI Agent Skills (SKILL.md), CLAUDE.md, .cursorrules, and mcp.json.",
+  "main": "src/guard.js",
+  "bin": {
+    "agent-skill-guard": "bin/cli.js"
+  },
+  "scripts": {
+    "scan": "node bin/cli.js scan .",
+    "mcp": "node bin/cli.js mcp",
+    "test": "node test/run.js"
+  },
+  "keywords": ["ai-security", "prompt-injection", "mcp", "agent-skills", "claude-code", "cursor"],
+  "license": "MIT"
+}
